@@ -2,17 +2,17 @@
 <Context>
 	<Resource name="jdbc/claimstatus" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
-               username="simonides" password="Gr33kLyr1cP03t!"
+               username="xxxxxxxxx" password="xxxxxxxxxxxxxxx"
                driverClassName="org.postgresql.Driver"
                url="jdbc:postgresql://claimstatus.cratp0nk0qj4.us-east-1.rds.amazonaws.com:5432/claimstatus"/>
     <Resource name="jdbc/eligibility-qa" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
-               username="aristotle" password="385bCsTag1rAGr33c3!"
+               username="xxxxxxxxx" password="xxxxxxxxxxxxxxxxxxx"
                driverClassName="org.postgresql.Driver"
                url="jdbc:postgresql://eligibility.cratp0nk0qj4.us-east-1.rds.amazonaws.com:5432/eligibility"/>
     <Resource name="jdbc/eligibility-prod" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
-               username="aristotle" password="385bCsTag1rAGr33c3!"
+               username="xxxxxxxxx" password="xxxxxxxxxxxxxxxxxxx"
                driverClassName="org.postgresql.Driver"
                url="jdbc:postgresql://eligibility-prod.cratp0nk0qj4.us-east-1.rds.amazonaws.com:5432/eligibility"/>
 </Context>
